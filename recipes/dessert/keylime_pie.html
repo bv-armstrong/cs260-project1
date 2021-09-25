@@ -1,10 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
 
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport'
+        content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css"/>
+  <title>Key Lime Pie Recipe</title>
+</head>
+
+<body>
+  <!--Menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/index.html">BV-Armstrong Recipes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/recipes/breakfast.html">Breakfast<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/recipes/main_dish.html">Main Dish<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/recipes/dessert.html">Dessert<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/recipes/other.html">Other<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!--Page-->
+  <div class="page-container">
+    <div class="container">
+      <h1>Key Lime Pie</h1>
+      <div class="recipe">
+        <img class="recipe-image" src="/images/key_lime_pie.jpg"/>
+        <div class="ingredients-list">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>1 envelope unflavored gelatin</li>
+            <li>&frac12; cup sugar</li>
+            <li>&frac14; teaspoon salt</li>
+            <li>4 egg yolks</li>
+            <li>&frac12; cup lime juice</li>
+            <li>&frac14; cup water</li>
+            <li>1 teaspoon grated lime peel</li>
+            <li>4 egg whites (see note)</li>
+            <li>&frac12; cup sugar</li>
+            <li>1 cup whipping cream</li>
+            <li>1 baked 9-inch pastry shell or graham cracker crust</li>
+          </ul>
+        </div>
+      </div>
+      <div class="steps">
+        <p>Note: since the whites are not cooked, you can substitute powder eggs whites such as <em>Just Whites</em></p>
+        <ol>
+          <li>Combine gelatin, sugar, and salt.</li>
+          <li>Beat egg yolks, lime juice, and water till blended; stir into gelatin.</li>
+          <li>Cook over medium heat, stirring, just till mixture comes to boiling.</li>
+          <li>Remove from heat; add lime peel. Add green food coloring to give pale green color.</li>
+          <li>Chill stirring occasionally until mixture mounds when spooned (<strong>note</strong>: <em>do not stick in refrigerator so long that the gelatin hardens</em>).</li>
+          <li>Beat egg whites (or Just Whites as directed) until soft peaks form. Gradually add &frac12; cup sugar, beat until stiff peaks form. Fold gelatin mixture into egg whites.</li>
+          <li>Whip cream; fold into other mixture.</li>
+          <li>Pile filling into baked pastry shell. Chill until firm.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div class="footer">
+    <div class="footer-content">
+      <p>©2021 Bryson Armstrong</p>
+      <p>All photos used are under public domain.</p>
+      <p class="p-long">GitHub Source Code:
+        <a class="footer-link"
+           href="https://github.com/bv-armstrong/cs260-project1">
+          https://github.com/bv-armstrong/cs260-project1
+        </a>
+      </p>
+      <p class="p-short"><a class="footer-link"
+                            href="https://github.com/bv-armstrong/cs260-project1">GitHub</a></p>
+    </div>
+  </div>
+
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
 </body>
+
 </html>

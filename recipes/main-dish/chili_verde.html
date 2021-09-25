@@ -1,10 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
 
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport'
+        content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css"/>
+  <title>Chili Verde Recipe</title>
+</head>
+
+<body>
+  <!--Menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/index.html">BV-Armstrong Recipes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/recipes/breakfast.html">Breakfast<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/recipes/main_dish.html">Main Dish<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/recipes/dessert.html">Dessert<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/recipes/other.html">Other<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!--Page-->
+  <div class="page-container">
+    <div class="container">
+      <h1>Chili Verde</h1>
+      <div class="recipe">
+        <img class="recipe-image" src="/images/chili_verde.jpg"/>
+        <div class="ingredients-list">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>3-4 pounds chicken breasts or good quality pork roast (preferably with bone)</li>
+            <li>6 Anaheim (mild) peppers</li>
+            <li>3 Jalapeno (medium) peppers</li>
+            <li>1 medium onion (optional--more pepper flavor without)</li>
+            <li>2 cloves garlic</li>
+            <li>1 tablespoon cumin</li>
+            <li>2 cups chicken stock (or 2 cubes chicken bouillon and 2 cups water)</li>
+            <li>2 tablespoons flour</li>
+            <li>Salt to taste</li>
+            <li>1-2 tablespoons sugar</li>
+          </ul>
+        </div>
+      </div>
+      <div class="steps">
+        <p>Put chicken or pork in crock pot. Remove seeds from peppers (remember to wear gloves!) and add to pot. Add
+          onion, garlic, cumin, and then pour broth over all. Cook for at least 5 hours on low (preferred) or 3 on high.
+          Remove meat from pot, de-bone and cut (or pull) into bite-size pieces. Meanwhile, liquefy the remaining
+          ingredients and add flour to thicken (I prefer to not bother chopping anything too much and just liquefy it
+          all, which makes a thick green soup. If you don't have children who are squeamish about onions or peppers, you
+          could just chop everything fine and leave it as is). Return meat to pot. Salt to taste.
+        </p>
+        <p>Use sugar to adjust heat--adding more sugar will take the edge off any heat (really, it's amazing). You can
+          also adjust the heat by varying the ratio of Anaheims to Jalapenos, or substituting bell or hotter peppers.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div class="footer">
+    <div class="footer-content">
+      <p>©2021 Bryson Armstrong</p>
+      <p>All photos used are under public domain.</p>
+      <p class="p-long">GitHub Source Code:
+        <a class="footer-link"
+           href="https://github.com/bv-armstrong/cs260-project1">
+          https://github.com/bv-armstrong/cs260-project1
+        </a>
+      </p>
+      <p class="p-short"><a class="footer-link"
+                            href="https://github.com/bv-armstrong/cs260-project1">GitHub</a></p>
+    </div>
+  </div>
+
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
 </body>
+
 </html>
