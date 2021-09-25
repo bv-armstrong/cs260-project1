@@ -132,4 +132,15 @@ img {
         height: 25em;
     }
 
+    .three-col-image img {
+        height: 17em;
+    }
+
+    .three-col {
+        margin: 5px;
+    }
+
+    .three-col-image div h3 {
+        font-size: 1.5em;
+    }
 }
