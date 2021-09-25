@@ -114,6 +114,11 @@ img {
     margin: 0;
 }
 
+.recipe-image {
+    box-shadow: 5px 3px 20px gray;
+    margin: 20px 0;
+}
+
 @media only screen and (min-width: 961px) {
 
     .col-lg {
@@ -142,5 +147,33 @@ img {
 
     .three-col-image div h3 {
         font-size: 1.5em;
+    }
+
+    .recipe-image {
+        width: 50%;
+    }
+
+    .recipe {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ingredients-list {
+        margin-top: 20px;
+        margin-left: 25px;
+        width: 50%;
+    }
+
+    .recipe, .steps {
+        font-size: 1.5em;
+    }
+
+    .steps {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    li {
+        margin-bottom: .3em;
     }
 }
