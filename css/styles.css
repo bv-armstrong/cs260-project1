@@ -106,6 +106,10 @@ img {
     margin: 0;
 }
 
+.p-short a {
+    text-decoration: underline;
+}
+
 .recipe-image {
     box-shadow: 5px 3px 20px gray;
     margin: 20px 0;
@@ -115,6 +119,10 @@ img {
 .steps {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.welcome {
+    margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 961px) {
